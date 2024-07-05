@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Now - AmakTech Marketplace</title>
+  <link rel="stylesheet" href="css/shopnow.css">
+</head>
+<body>
+  <div class="container">
+    <div class="shopnow-container">
+      <h2>Shop Now</h2>
+      <form id="shopnow-form">
+        <select id="shop-product" required>
+          <option value="" disabled selected>Select Product</option>
+          <option value="laptop">Laptop</option>
+          <option value="desktop">Desktop</option>
+          <option value="smartphone">Smartphone</option>
+          <option value="router">Router</option>
+        </select>
+        <input type="number" id="shop-quantity" placeholder="Quantity" required min="1">
+        <button type="submit">Shop Now</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
