@@ -5,12 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AmakTech Marketplace</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/products.css">
-  <link rel="stylesheet" href="css/forms.css">
-  <link rel="stylesheet" href="css/cart.css">
-  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9eKxgAgYyZ3Cg7i65g3PqJcZ2VTvZUnZ6uL3a9e71r2FIUvwW3kD+KguU3OxlMP4B8ccWqt9YeCGr1zTmw1oBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
@@ -21,6 +16,9 @@
   <header>
     <div class="logo">
       <img src="./images/logo.png" alt="AmakTech Marketplace">
+    </div>
+    <div class="site-name">
+      <h1>AmakTech Marketplace</h1>
     </div>
     <nav>
       <ul>
@@ -34,6 +32,10 @@
     <div class="search-bar">
       <input type="text" placeholder="Search...">
     </div>
+    <div class="header-buttons">
+      <button class="login-btn">Login</button>
+      <button class="signup-btn">Sign Up</button>
+    </div>
     <div class="cart-icon">
       <img src="images/cart.png" alt="Cart">
       <span class="item-count">0</span>
@@ -42,6 +44,7 @@
 
   <!-- Banner -->
   <section class="banner">
+    <h2>Empowering Tech Solutions, Every Step of the Way</h2>
     <img src="images/banner.jpg" alt="Featured Products">
     <button class="shop-now">Shop Now</button>
   </section>
@@ -85,20 +88,16 @@
         <li><a href="alfredmakura.tech">Returns</a></li>
       </ul>
     </div>
-    <div class="information">
-      <h3>Information</h3>
-      <ul>
-        <li><a href="alfredmakura.tech">About Us</a></li>
-        <li><a href="alfredmakura.tech">Privacy Policy</a></li>
-        <li><a href="alfredmakura.tech">Terms of Service</a></li>
-      </ul>
-    </div>
-    <div class="newsletter">
+    <div class="social-media">
       <h3>Follow Us</h3>
-      <form>
-        <input type="email" placeholder="Email Address">
-        <button type="submit">Sign Up</button>
-      </form>
+      <div class="social-icons">
+        <a href="https://x.com/makura_alfred?t=ZY1BMw3CeZ1UhZ8UuCGEoA&s=08"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="https://www.facebook.com/profile.php?id=100071954135203"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/makuraalfred/"><img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div class="vendor-section">
+      <h3>Become a Vendor</h3>
     </div>
     <div class="copyright">
       <p>&copy; 2024 AmakTech Marketplace. All rights reserved.</p>
