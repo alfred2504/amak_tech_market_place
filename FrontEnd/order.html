@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - AmakTech Marketplace</title>
+  <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+  <div class="container">
+    <div class="order-container">
+      <h2>Place Your Order</h2>
+      <form id="order-form">
+        <select id="product" required>
+          <option value="" disabled selected>Select Product</option>
+          <option value="laptop">Laptop</option>
+          <option value="desktop">Desktop</option>
+          <option value="smartphone">Smartphone</option>
+          <option value="router">Router</option>
+        </select>
+        <input type="number" id="quantity" placeholder="Quantity" required min="1">
+        <input type="text" id="customer-name" placeholder="Customer Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="tel" id="contact" placeholder="Contact Number" required>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
