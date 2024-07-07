@@ -12,40 +12,34 @@
     <div class="logo">
       <img src="./images/logo.png" alt="AmakTech Marketplace">
     </div>
-    <div class="site-name">
-      <h1>AmakTech Marketplace</h1>
-    </div>
     <nav>
       <ul>
-        <li><a href="alfredmakura.tech">Home</a></li>
-        <li><a href="alfredmakura.tech">Products</a></li>
-        <li><a href="alfredmakura.tech">About Us</a></li>
-        <li><a href="alfredmakura.tech">Contact</a></li>
-        <li><a href="alfredmakura.tech">Profile</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about-us">About Us</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
       </ul>
     </nav>
     <div class="search-bar">
       <input type="text" placeholder="Search...">
     </div>
-    <div class="header-buttons">
-      <button class="login-btn">Login</button>
-      <button class="signup-btn">Sign Up</button>
-    </div>
     <div class="cart-icon">
-      <img src="images/cart.png" alt="Cart">
+      <a href="cart.html"><img src="images/cart.png" alt="Cart"></a>
       <span class="item-count">0</span>
     </div>
   </header>
 
   <!-- Banner -->
   <section class="banner">
-    <h2>Empowering Tech Solutions, Every Step of the Way</h2>
     <img src="images/banner.jpg" alt="Featured Products">
-    <button class="shop-now">Shop Now</button>
+    <button class="shop-now" onclick="window.location.href='shopnow.html'">Shop Now</button>
   </section>
 
   <!-- Featured Products -->
-  <section class="featured-products">
+  <section class="featured-products" id="products">
     <h2>Featured Products</h2>
     <div class="product">
       <img src="images/laptop.jpg" alt="Laptop">
@@ -78,35 +72,37 @@
     <div class="customer-service">
       <h3>Customer Service</h3>
       <ul>
-        <li><a href="alfredmakura.tech">Contact Us</a></li>
-        <li><a href="alfredmakura.tech">FAQ</a></li>
-        <li><a href="alfredmakura.tech">Returns</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="returns.html">Returns</a></li>
       </ul>
     </div>
-    <div class="social-media">
-      <h3>Follow Us</h3>
-      <div class="social-icons">
-        <a href="https://x.com/makura_alfred?t=ZY1BMw3CeZ1UhZ8UuCGEoA&s=08"><img src="images/twitter.png" alt="Twitter"></a>
-        <a href="https://www.facebook.com/profile.php?id=100071954135203"><img src="images/facebook.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/makuraalfred/"><img src="images/instagram.png" alt="Instagram"></a>
-      </div>
+    <div class="information">
+      <h3>Information</h3>
+      <ul>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+      </ul>
     </div>
-    <div class="vendor-section">
+    <div class="newsletter">
+      <h3>Follow Us</h3>
+      <a href="https://x.com/makura_alfred?t=ZY1BMw3CeZ1UhZ8UuCGEoA&s=08"><img src="images/twitter.png" alt="Twitter" /></a>
+      <a href="https://www.facebook.com/profile.php?id=100071954135203"><img src="images/facebook.png" alt="Facebook" /></a>
+      <a href="https://www.instagram.com/makuraalfred/"><img src="images/instagram.png" alt="Instagram" /></a>
+    </div>
+    <div class="become-vendor">
       <h3>Become a Vendor</h3>
+      <ul>
+        <li><a href="vendor.html">Learn More</a></li>
+      </ul>
+    </div>
+    <div class="logo">
+      <img src="./images/logo.png" alt="AmakTech Marketplace">
     </div>
     <div class="copyright">
       <p>&copy; 2024 AmakTech Marketplace. All rights reserved.</p>
     </div>
   </footer>
-
-   <!-- JavaScript files -->
-   <script src="js/header.js"></script>
-   <script src="js/products.js"></script>
-   <script src="js/footer.js"></script>
-   <script src="js/login.js"></script>
-   <script src="js/signup.js"></script>
-   <script src="js/cart.js"></script>
-   <script src="js/profile.js"></script>
-   <script src="js/firebase-auth.js"></script>
 </body>
 </html>
