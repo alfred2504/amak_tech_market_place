@@ -46,3 +46,52 @@ Thumbs.db
 .firebase
 *-debug.log
 .runtimeconfig.json
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Firebase configuration files
+firebase.json
+.firebaserc
+
+# Ignore build directories and files
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore all Mac OS generated files
+.DS_Store
+
+# Ignore all Windows generated files
+Thumbs.db
+
+# Ignore all Linux generated files
+*~
+
+# Ignore specific files and directories
+public/
+coverage/
+
+# Ignore Firebase token file
+firebase-debug.log
+
+# Ignore Firebase hosting cache
+.cache/
